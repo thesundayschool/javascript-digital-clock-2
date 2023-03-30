@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'DS-Digital Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DS-Digital Normal'), url('fonts/DS-DIGI.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DS-Digital Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DS-Digital Italic'), url('fonts/DS-DIGII.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DS-Digital Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DS-Digital Bold'), url('fonts/DS-DIGIB.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'DS-Digital Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DS-Digital Bold Italic'), url('fonts/DS-DIGIT.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time_container {
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    font-family: 'DS-Digital Bold';
+}
+
+.date_container {
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'DS-Digital Normal';
+}
